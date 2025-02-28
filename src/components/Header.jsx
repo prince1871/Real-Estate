@@ -20,9 +20,9 @@ const Header = () => {
       >
         <div className="container text-center mx-auto py-4 z-10 px-6 md:px-20 lg:px-32 text-white">
           <motion.h2 
-           initial={{ opacity: 0, y: 50 }} 
-           animate={{ opacity: 1, y: 0 }} 
-           transition={{ duration: 1.5, ease: "easeOut" }}
+      initial={{ opacity: 0 }} 
+      animate={{ opacity: 1 }} 
+      transition={{ duration: 1 }}
           className="text-5xl sm:text-6xl md:text-[82px] font-semibold pt-20 text-white drop-shadow-lg hover:text-blue-500">
            <strong> Explore homes that 
             fit your dreams</strong> 

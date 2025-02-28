@@ -64,7 +64,7 @@ const LearnMore = () => {
         transition={{ duration: 1, delay: 0.8 }}
       >
         <Link to="/" className='bg-blue-600 text-white px-10 py-3 rounded-full text-lg font-semibold shadow-md transition-all hover:bg-blue-700 hover:shadow-lg'>
-          Back to Home
+          Back to About
         </Link>
       </motion.div>
     </motion.div>
